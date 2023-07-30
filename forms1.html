@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms For Week Three Project</title>
+    <link rel="stylesheet" href="forms1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header">
+      <p>Don't have an account yet?</p>
+      <input type="button" value="Sign up" />
+
+      <input type="submit" value="Contact us">
+
+    </div>
+
+    <div class="main-content">
+      <h3>Liteform</h3>
+      <p class="intro">Hello, who's this?</p>
+      <p>
+        <label class="label-input" for="email">Email</label>
+      </p>
+      <input type="email" id="email" name="email" placeholder="bruce@wayne.com" required />
+
+      <p>
+        <label for="pword">Password</label>
+      </p>
+      <input type="password" id="pword" name="password" placeholder="At least 8 characters" required minlength="8" maxlength="20"/>
+      <p><a href="#">Forgot password?</a></p>
+
+      <input class="last-button" type="button" value="Log in to Liteform" />
+      <div class="hr-and-or">
+        <span><hr /></span>
+        <span class="or">or</span>
+        <span><hr /></span>
+      </div>
+      <input class="first-button" type="button" value="Log in with Google" />
+      <input class="middle-button" type="button" value="Log in with Microsoft" />
+      <p><a href="#">Log in with SSO</a></p>
+
+    </div>
+  </body>
+</html>

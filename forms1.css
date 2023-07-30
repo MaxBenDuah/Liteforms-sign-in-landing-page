@@ -1,0 +1,140 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+div.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+div.header input[type="button"] {
+  padding: 8px 15px;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+  margin-left: 0.5em;
+}
+
+div.header input[type="submit"] {
+  border: none;
+  background: white;
+  text-decoration: underline;
+  color: #262627;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+
+div.main-content {
+  /* border: 1px solid black; */
+  width: 600px;
+  height: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-content h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 1.3em;
+}
+
+.main-content .intro {
+  font-size: 1.3rem;
+  color: #4C4C4C;
+  margin-bottom: 1.5em;
+}
+
+.main-content a {
+  color: #777777;
+  font-size: 0.9rem;
+}
+
+.label-input {
+  text-align: right;
+}
+
+input[type="email"], input[type="password"] {
+  display: block;
+  width: 45%;
+  border: 1px solid rgb(187, 187, 187);
+  margin: auto;
+  padding: 12px 15px;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+
+input[class="last-button"] {
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+  width: 50%;
+  padding: 12px 28px;
+  background: black;
+  border: 1px solid black;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+hr {
+  width: 120px;
+  border: 0.5px solid #A7A7A7;
+}
+
+div.hr-and-or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.hr-and-or .or {
+  text-transform: uppercase;
+  margin: 1em;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+input[class="first-button"] {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 12px 28px;
+  background-color: white;
+  background-image: url('./google-logo.png');
+  background-size: 26px 26px;
+  background-repeat: no-repeat;
+  background-position: 4% 55%;
+  border: 1px solid rgb(187, 187, 187);
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-bottom: 18px;
+  color: #737373;
+  font-weight: 500;
+  cursor: pointer;
+  /* padding: 8px 68px; */
+}
+
+input[class="middle-button"] {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 12px 28px;
+  background-color: white;
+  background-image: url('./microsoft-logo.png');
+  background-size: 26px 26px;
+  background-repeat: no-repeat;
+  background-position: 4% 55%;
+  border: 1px solid rgb(187, 187, 187);
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-bottom: 18px;
+  color: #737373;
+  font-weight: 500;
+  cursor: pointer;
+  /* padding: 8px 68px; */
+}
